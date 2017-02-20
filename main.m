@@ -87,8 +87,8 @@
 % end
 % fig = imshow(img);hold on;
 input =3;
-img=imread('C:\Users\Ayush Agrawal\Desktop\BTP\file_2.tiff');
-s = xml2struct('C:\Users\Ayush Agrawal\Desktop\BTP\file_2.xml');
+img=imread('file_2.tiff');
+s = xml2struct('file_2.xml');
 [adjMatrix, vertices, numOfDoors, doors] = working(img,s);
 fig = imshow(img);hold on;
 for i=1:numOfDoors
